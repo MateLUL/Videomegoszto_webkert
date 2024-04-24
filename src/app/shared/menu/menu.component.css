@@ -1,0 +1,12 @@
+a {
+    text-shadow: none;
+}
+
+.menubar {
+    background: transparent !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+a {
+    color: white;
+}
