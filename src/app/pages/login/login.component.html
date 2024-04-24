@@ -1,1 +1,19 @@
-<p>asd</p>
+<p class="title">Bejelentkezés</p>
+
+<div class="log_form">
+    <form action="" method="post" class="row g-3">
+        <div class="col-12">
+            <label for="username" class="form-label">Felhasználónév</label>
+            <input type="text" class="form-control" id="username" name="username" [formControl]="username">
+        </div>
+
+        <div class="col-12">
+            <label for="pass" class="form-label">Jelszó</label>
+            <input type="password" class="form-control" id="pass" name="pass" [formControl]="password">
+        </div>
+
+        <div class="col-12">
+            <input type="submit" (click)="login()" class="btn btn-primary" value="Bejelentkezés">
+        </div>
+    </form>
+</div>

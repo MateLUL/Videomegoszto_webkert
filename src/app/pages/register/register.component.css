@@ -1,5 +1,25 @@
 .title {
     font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
-body {}
+.reg_form {
+    margin: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .reg_form {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+}

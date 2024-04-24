@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './upload.component.css'
 })
 export class UploadComponent {
-
+  constructor() {}
 }
